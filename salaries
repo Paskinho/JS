@@ -1,0 +1,45 @@
+№1
+<!DOCTYPE HTML>
+
+
+<html>
+
+
+<body>
+
+  
+<script> 
+ 
+'use strict';
+
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+
+salaries.sum = (salaries.John + salaries.Ann + salaries.Pete);
+alert (salaries.sum);
+
+
+ </script>
+
+
+</body>
+</html>
+
+
+
+№2
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+};
+
+let sum = 0;
+for (let key in salaries) {
+  sum += salaries[key];
+}
+
+alert(sum); // 390
