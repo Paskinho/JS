@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<script> 
+ 'use strict';
+
+  fucntion isEmpty(obj){
+  for (let key in obj) {
+    return false;
+  }
+  return true;
+
+}
+ </script>
+</body>
+</html>
