@@ -9,6 +9,5 @@ function findNeedle(haystack) {
 }
 
  </script>
-
 </body>
 </html>
