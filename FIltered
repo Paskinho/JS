@@ -1,14 +1,7 @@
 <!DOCTYPE HTML>
-
-
 <html>
-
-
-<body>
-
-  
+<body>  
 <script> 
- 
 'use strict';
 
 function filterRange(arr, a, b) {
