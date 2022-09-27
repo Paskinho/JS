@@ -1,0 +1,8 @@
+function XO(str) {
+ if ("X".toUpperCase() == 'O'.toUpperCase()) {
+   return true
+ }
+  else {
+    return false
+  }
+}
