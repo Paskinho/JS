@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<body> 
+
+<script> 
+
+'use strict';
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals+copaDelReyGoals+championsLeagueGoals
+}
+
+ </script>
+
+</body>
+</html>
