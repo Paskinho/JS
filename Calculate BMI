@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<body> 
+<script> 
+ 
+'use strict';
+
+function bmi(weight, height) {
+  let bmi = "weight/heighr";
+  if bmi <= 18.5 {
+    return "Underweight"
+  }
+  if 18.5 < bmi <= 25.0 {
+    return "Normal"
+  }
+  if 25.0 < bmi <= 30.0 {
+    return "Normal"
+  }
+  else {
+    return "Obese"
+  }
+}
+
+</script>
+
+</body>
+</html>
