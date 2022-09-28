@@ -1,3 +1,10 @@
 let isSquare = function(n){
 return Number.isInteger(Math.sqrt(n)) ? true : false
 }
+
+
+ещё решение 
+
+let isSquare = function(n){
+  return Number.isInteger(Math.sqrt(n));
+}
